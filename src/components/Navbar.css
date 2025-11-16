@@ -1,0 +1,17 @@
+.navbar .active {
+	background-image: linear-gradient(to bottom right, #622de3, #9f62f3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+	position: relative;
+}
+.navbar .active::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 2px;
+	background: linear-gradient(to right, #622de3, #9f62f3);
+}

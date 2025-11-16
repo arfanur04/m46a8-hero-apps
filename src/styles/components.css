@@ -1,0 +1,30 @@
+/* .navLinkBase {
+	@apply mx-2 px-0 hover:bg-white active:bg-white;
+} */
+
+.scroll_stable {
+	height: 100dvh;
+	overflow-y: auto;
+	scrollbar-gutter: stable;
+	scrollbar-width: thin;
+
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.gradient_text {
+	background-image: linear-gradient(to bottom right, #622de3, #9f62f3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+}
+
+.gradient_bg {
+	background-image: linear-gradient(to bottom right, #622de3, #9f62f3);
+	color: white;
+}
+
+.secondary_text {
+	color: #627382;
+}
