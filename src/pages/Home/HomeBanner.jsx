@@ -6,9 +6,9 @@ const HomeBanner = () => {
 			<div className="max-w-7xl mx-auto w-11/12 flex flex-col items-center gap-6 text-center">
 				<h1 className="lg:text-6xl text-3xl font-bold">
 					We Build <br />
-					<span className="gradient_text">Productive</span> Apps
+					<span className="text_gradient">Productive</span> Apps
 				</h1>
-				<p className="max-w-2xl mx-auto secondary_text">
+				<p className="max-w-2xl mx-auto text_secondary">
 					At HERO.IO, we craft innovative apps designed to make everyday life
 					simpler, smarter, and more exciting.Our goal is to turn your ideas
 					into digital experiences that truly make an impact.

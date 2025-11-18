@@ -1,0 +1,15 @@
+/* subtitle color */
+.home_state .stat-title,
+.stat-desc {
+	color: #e6dafb;
+}
+
+.home_state .stat-value {
+	font-size: 48px;
+}
+
+@media screen and (min-width: 992px) {
+	.home_state .stat-value {
+		font-size: 64px;
+	}
+}

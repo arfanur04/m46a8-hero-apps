@@ -72,7 +72,7 @@ const Navbar = () => {
 					</div>
 					<Link
 						to={"/"}
-						className="flex items-center font-bold lg:text-xl gradient_text group"
+						className="flex items-center font-bold lg:text-xl text_gradient group"
 					>
 						<img
 							className="w-8 ml-2 mr-2 lg:ml-0"
@@ -89,7 +89,7 @@ const Navbar = () => {
 					<Link
 						to={"https://github.com/arfanur04"}
 						target="_blank"
-						className="btn gradient_bg hover:bg-red-500"
+						className="btn bg_gradient hover:bg-red-500"
 					>
 						<FaGithub className="text-lg" />
 						Contribute
